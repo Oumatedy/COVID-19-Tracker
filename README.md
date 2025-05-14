@@ -2,9 +2,9 @@
 
 This project provides a comprehensive, data-driven analysis of the COVID-19 pandemic using global data from Our World in Data. The notebook explores trends in cases, deaths, and vaccinations, and investigates how demographic and socioeconomic factors have influenced pandemic outcomes across countries and continents.
 
-![covid_report](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/COVID-19_Cases_World_Map_Report_March_2020.png/800px-COVID-19_Cases_World_Map_Report_March_2020.png)
+<img src="https://www.internationalairportreview.com/wp-content/uploads/ICAO-11.jpg" width="600">
 
-From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:COVID-19_Cases_World_Map_Report_March_2020.png)
+From [International Airport Review - Updated Economic Impact Analysis COVID-19 (ICAO)](https://www.internationalairportreview.com/news/149655/updated-economic-impact-analysis-covid-19-icao/)
 ## Features
 - **Interactive Dashboard:** Launch `dashboard.py` with Streamlit to explore and compare COVID-19 trends by country, date range, and metric. Includes multi-country comparison, summary statistics, and data download.
 - **Data Import & Cleaning:** Loads and preprocesses the latest COVID-19 dataset, handling missing values and anomalies for robust analysis.
@@ -83,4 +83,4 @@ This project is licensed under the MIT License.
 - Our World in Data for providing open-access COVID-19 data
 - The global scientific and public health community for ongoing research and response efforts
 
-**Image Credit**: [Wikimedia Commons - COVID-19 Cases World Map Report March 2020](https://commons.wikimedia.org/wiki/File:COVID-19_Cases_World_Map_Report_March_2020.png)
+**Image Credit**: [International Airport Review - Updated Economic Impact Analysis COVID-19 (ICAO)](https://www.internationalairportreview.com/news/149655/updated-economic-impact-analysis-covid-19-icao/)
