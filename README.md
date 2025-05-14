@@ -2,7 +2,7 @@
 
 This project provides a comprehensive, data-driven analysis of the COVID-19 pandemic using global data from Our World in Data. The notebook explores trends in cases, deaths, and vaccinations, and investigates how demographic and socioeconomic factors have influenced pandemic outcomes across countries and continents.
 
-![covid_report](https://upload.wikimedia.org/wikipedia/commons/6/6b/COVID-19_Cases_World_Map_Report_March_2020.png)
+![covid_report](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/COVID-19_Cases_World_Map_Report_March_2020.png/800px-COVID-19_Cases_World_Map_Report_March_2020.png)
 
 From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:COVID-19_Cases_World_Map_Report_March_2020.png)
 ## Features
