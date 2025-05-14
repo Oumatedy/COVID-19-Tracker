@@ -2,9 +2,11 @@
 
 This project provides a comprehensive, data-driven analysis of the COVID-19 pandemic using global data from Our World in Data. The notebook explores trends in cases, deaths, and vaccinations, and investigates how demographic and socioeconomic factors have influenced pandemic outcomes across countries and continents.
 
-![COVID-19 Global Tracker](https://www.amprogress.org/wp-content/uploads/2020/03/Case-Surveillance-4-1200x800.jpeg)
+![covid_report](https://upload.wikimedia.org/wikipedia/commons/6/6b/COVID-19_Cases_World_Map_Report_March_2020.png)
 
+From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:COVID-19_Cases_World_Map_Report_March_2020.png)
 ## Features
+- **Interactive Dashboard:** Launch `dashboard.py` with Streamlit to explore and compare COVID-19 trends by country, date range, and metric. Includes multi-country comparison, summary statistics, and data download.
 - **Data Import & Cleaning:** Loads and preprocesses the latest COVID-19 dataset, handling missing values and anomalies for robust analysis.
 - **Exploratory Data Analysis (EDA):** Visualizes time trends, regional comparisons, and key metrics using Python libraries (pandas, matplotlib, seaborn, plotly).
 - **Geographical & Demographic Analysis:** Compares pandemic impact by continent and country, and explores the role of age, population density, and GDP per capita.
@@ -34,13 +36,23 @@ This project provides a comprehensive, data-driven analysis of the COVID-19 pand
    - seaborn
    - plotly
    - scikit-learn
-3. **Open `index.ipynb` in VS Code or Jupyter Notebook.**
-4. **Run the notebook cells sequentially to reproduce the analysis and visualizations.**
+   - streamlit
+3. **To launch the interactive dashboard:**
+   - Open a terminal in the project folder and run:
+     ```cmd
+     streamlit run dashboard.py
+     ```
+   - Use the sidebar to select countries, date range, and metrics. Download filtered data as needed.
+4. **To run the analysis notebook:**
+   - Open `index.ipynb` in VS Code or Jupyter Notebook.
+   - Run the notebook cells sequentially to reproduce the analysis and visualizations.
+   - **Note:** If `index.ipynb` is too large to view on GitHub, please download the file and open it locally using Jupyter Notebook or VS Code for the best experience.
 
 ## Data Source
 - [Our World in Data: COVID-19 Dataset](https://github.com/owid/covid-19-data)
 
 ## Project Structure
+- `dashboard.py` — Interactive Streamlit dashboard for COVID-19 data exploration
 - `index.ipynb` — Main analysis notebook
 - `owid-covid-data.csv` — COVID-19 dataset (downloaded from Our World in Data)
 - `README.md` — Project overview and instructions
@@ -71,4 +83,4 @@ This project is licensed under the MIT License.
 - Our World in Data for providing open-access COVID-19 data
 - The global scientific and public health community for ongoing research and response efforts
 
-**Image Credit**: [amprogress](https://www.amprogress.org)
+**Image Credit**: [Wikimedia Commons - COVID-19 Cases World Map Report March 2020](https://commons.wikimedia.org/wiki/File:COVID-19_Cases_World_Map_Report_March_2020.png)
